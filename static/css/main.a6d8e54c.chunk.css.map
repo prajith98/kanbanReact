@@ -1,1 +1,0 @@
-{"version":3,"sources":["app.css"],"names":[],"mappings":"AAAA,OACI,WAAY,CACZ,YAEJ,CACA,UACI,UACJ","file":"main.a6d8e54c.chunk.css","sourcesContent":[".photo{\r\n    width: 250px;\r\n    height: 100px;\r\n\r\n}\r\n.substext{\r\n    left: 120px;\r\n}"]}
