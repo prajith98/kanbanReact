@@ -19,7 +19,7 @@ const itemsFromBackend = [
 const itemsFromBackend1 = [
   { id: uuid(), content: <img className="photo" src="https://cdn.images.express.co.uk/img/dynamic/143/590x/PS4-console-update-cross-play-1186023.webp?r=1570273145734" alt="smileyface"/> },
   { id: uuid(), content: <img className="photo" src="https://st1.bgr.in/wp-content/uploads/2015/07/samsung-galaxy-s5-price-drop1.jpg" alt="smileyface"/> },
-  { id: uuid(), content: <img className="photo" src="https://www.stuff.tv/sites/stuff.tv/files/brands/Apple/iPhone11handson/iphone-11-vs-iphone-x.jpg" alt="smileyface"/> },
+  { id: uuid(), content: <img className="photo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQGML6NYQhPLyZSpdWoKjO5xaC03ulg-9sMn1iP2kHzqG2Uo_i3&usqp=CAU" alt="smileyface"/> },
   { id: uuid(), content: <img className="photo" src="https://static.hub.91mobiles.com/wp-content/uploads/2017/08/JioPhone-leak-FB-new.jpg" alt="smileyface"/> },
   { id: uuid(), content: <img className="photo" src={img3} alt="smileyface"/> },
   { id: uuid(), content: <img className="photo" src={img1} alt="smileyface"/> },
