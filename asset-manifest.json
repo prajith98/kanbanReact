@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/kanbanReact/static/css/main.0e111bff.chunk.css",
-    "main.js": "/kanbanReact/static/js/main.0382d196.chunk.js",
-    "main.js.map": "/kanbanReact/static/js/main.0382d196.chunk.js.map",
+    "main.js": "/kanbanReact/static/js/main.71e3698c.chunk.js",
+    "main.js.map": "/kanbanReact/static/js/main.71e3698c.chunk.js.map",
     "runtime-main.js": "/kanbanReact/static/js/runtime-main.423bceae.js",
     "runtime-main.js.map": "/kanbanReact/static/js/runtime-main.423bceae.js.map",
     "static/js/2.fc079ca5.chunk.js": "/kanbanReact/static/js/2.fc079ca5.chunk.js",
     "static/js/2.fc079ca5.chunk.js.map": "/kanbanReact/static/js/2.fc079ca5.chunk.js.map",
     "index.html": "/kanbanReact/index.html",
-    "precache-manifest.db34b079a8b57421174f67360eb8ffa9.js": "/kanbanReact/precache-manifest.db34b079a8b57421174f67360eb8ffa9.js",
+    "precache-manifest.d146a625227659059f00b698357efc67.js": "/kanbanReact/precache-manifest.d146a625227659059f00b698357efc67.js",
     "service-worker.js": "/kanbanReact/service-worker.js",
     "static/css/main.0e111bff.chunk.css.map": "/kanbanReact/static/css/main.0e111bff.chunk.css.map",
     "static/js/2.fc079ca5.chunk.js.LICENSE.txt": "/kanbanReact/static/js/2.fc079ca5.chunk.js.LICENSE.txt",
@@ -20,6 +20,6 @@
     "static/js/runtime-main.423bceae.js",
     "static/js/2.fc079ca5.chunk.js",
     "static/css/main.0e111bff.chunk.css",
-    "static/js/main.0382d196.chunk.js"
+    "static/js/main.71e3698c.chunk.js"
   ]
 }
