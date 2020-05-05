@@ -19,7 +19,7 @@ const itemsFromBackend = [
 const itemsFromBackend1 = [
   { id: uuid(), content: <img className="photo" src="https://cdn.images.express.co.uk/img/dynamic/143/590x/PS4-console-update-cross-play-1186023.webp?r=1570273145734" alt="smileyface"/> },
   { id: uuid(), content: <img className="photo" src="https://st1.bgr.in/wp-content/uploads/2015/07/samsung-galaxy-s5-price-drop1.jpg" alt="smileyface"/> },
-  { id: uuid(), content: <img className="photo" src="https://cnet4.cbsistatic.com/img/KnuL1WDed3sanatLbE4YDddJGVg=/2017/10/31/312b3b6e-59b7-499a-aea4-9bc5f9721a21/iphone-x-54.jpg" alt="smileyface"/> },
+  { id: uuid(), content: <img className="photo" src="https://www.stuff.tv/sites/stuff.tv/files/brands/Apple/iPhone11handson/iphone-11-vs-iphone-x.jpg" alt="smileyface"/> },
   { id: uuid(), content: <img className="photo" src="https://static.hub.91mobiles.com/wp-content/uploads/2017/08/JioPhone-leak-FB-new.jpg" alt="smileyface"/> },
   { id: uuid(), content: <img className="photo" src={img3} alt="smileyface"/> },
   { id: uuid(), content: <img className="photo" src={img1} alt="smileyface"/> },
@@ -88,7 +88,7 @@ const onDragEnd = (result, columns, setColumns) => {
 function App() {
   const [columns, setColumns] = useState(columnsFromBackend);
   return (
-    <div style={{ display: "flex", justifyContent: "center",width:"100%", height: "300%" ,zIndex:-1,backgroundBlendMode: 'screen' ,backgroundImage:`linear-gradient(rgba(255,255,255,.8),rgba(255,255,255,.8)), url("https://st2.depositphotos.com/3102403/10890/v/950/depositphotos_108905520-stock-illustration-thin-line-finance-money-banking.jpg")`}}>
+    <div style={{ display: "flex", justifyContent: "center", height: "300%" ,zIndex:-1,backgroundBlendMode: 'screen' ,backgroundImage:`linear-gradient(rgba(255,255,255,.8),rgba(255,255,255,.8)), url("https://st2.depositphotos.com/3102403/10890/v/950/depositphotos_108905520-stock-illustration-thin-line-finance-money-banking.jpg")`}}>
       <DragDropContext
         onDragEnd={result => onDragEnd(result, columns, setColumns)}
       >
@@ -114,10 +114,9 @@ function App() {
                           background: snapshot.isDraggingOver
                             ? "lightgrey"
                             : "#f9f9f9",
-                          borderColor:"black",
                           borderWidth:1,
                           padding: 4,
-                          width: 220,
+                          width: 230,
                           minHeight: 700
                         }}
                       >
@@ -140,7 +139,7 @@ function App() {
                                       minHeight: "50px",
                                       backgroundColor: snapshot.isDragging
                                         ? "grey"
-                                        : "black",
+                                        : "#f9f9f9",
                                       color: "white",
                                       ...provided.draggableProps.style
                                     }}
