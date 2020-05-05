@@ -9,9 +9,9 @@ const itemsFromBackend = [
   { id: uuid(), content: <img className="photo" src="https://stimg.cardekho.com/images/carexteriorimages/630x420/Tata/Tata-Nano/1735/1563258193189/front-left-side-47.jpg?tr=h-140" alt="smileyface"/> },
   { id: uuid(), content: <img className="photo" src="https://static.cablo.cab/uploads//cabImage/cabImage_20180925_1d874956469.jpg" alt="smileyface"/> },
   { id: uuid(), content: <img className="photo" src="https://cdn-ds.com/blogs-media/sites/178/2018/11/12085959/2019-MB-AMG-GT-exterior-front-fascia-going-fast-on-blurred-road_o-1038x375.jpg" alt="smileyface"/> },
-  { id: uuid(), content: <img className="photo" src="https://www.railway-technology.com/wp-content/uploads/sites/24/2020/03/800px-Indian-Railways.jpg" alt="smileyface"/> },
-  { id: uuid(), content: <img className="photo" src="https://www.rd.com/wp-content/uploads/2019/01/6-Best-Airlines-for-Economy-Class-Fliers.jpg" alt="smileyface"/> },
-  { id: uuid(), content: <img className="photo" src="https://thehighlife.com.au/wp-content/uploads/2016/12/qatar-b777-business-class2-e1487752290549.jpg" alt="smileyface"/> },
+  { id: uuid(), content: <img className="photo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTzWOw9TsRhG3U3qtkkqPG8WGTHqADE3Td5y_1NqtNdR2TRodiF&usqp=CAU" alt="smileyface"/> },
+  { id: uuid(), content: <img className="photo" src="https://cdn.images.express.co.uk/img/dynamic/143/590x/PS4-console-update-cross-play-1186023.webp?r=1570273145734" alt="smileyface"/> },
+  { id: uuid(), content: <img className="photo" src="https://static.acer.com/up/Resource/Acer/Predator/Thronos/ThronosImage/20181227/Immersion_large.jpg" alt="smileyface"/> },
 ];
 
 const columnsFromBackend = {
