@@ -88,7 +88,7 @@ const onDragEnd = (result, columns, setColumns) => {
 function App() {
   const [columns, setColumns] = useState(columnsFromBackend);
   return (
-    <div style={{ display: "flex", justifyContent: "center", height: "300%" ,zIndex:-1,backgroundBlendMode: 'screen' ,backgroundImage:`linear-gradient(rgba(255,255,255,.8),rgba(255,255,255,.8)), url("https://st2.depositphotos.com/3102403/10890/v/950/depositphotos_108905520-stock-illustration-thin-line-finance-money-banking.jpg")`}}>
+    <div style={{ display: "flex", justifyContent: "center",width:"100%", height: "300%" ,zIndex:-1,backgroundBlendMode: 'screen' ,backgroundImage:`linear-gradient(rgba(255,255,255,.8),rgba(255,255,255,.8)), url("https://st2.depositphotos.com/3102403/10890/v/950/depositphotos_108905520-stock-illustration-thin-line-finance-money-banking.jpg")`}}>
       <DragDropContext
         onDragEnd={result => onDragEnd(result, columns, setColumns)}
       >
