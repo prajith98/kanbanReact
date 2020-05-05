@@ -1,6 +1,9 @@
 import React, { useState } from "react";
 import { DragDropContext, Draggable, Droppable } from "react-beautiful-dnd";
 import {v4 as uuid} from "uuid";
+import img1 from './img1.jpeg'
+import img2 from './img2.jpg'
+import img3 from './img3.jpg'
 import "./app.css"
 const itemsFromBackend = [
   { id: uuid(), content: <img className="photo" src="https://overcomingms.org/sites/default/files/styles/916x648/public/2018-08/Chapatis.jpg?itok=z4jO3xeJ" alt="smileyface"/> },
@@ -12,6 +15,12 @@ const itemsFromBackend = [
   { id: uuid(), content: <img className="photo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTzWOw9TsRhG3U3qtkkqPG8WGTHqADE3Td5y_1NqtNdR2TRodiF&usqp=CAU" alt="smileyface"/> },
   { id: uuid(), content: <img className="photo" src="https://cdn.images.express.co.uk/img/dynamic/143/590x/PS4-console-update-cross-play-1186023.webp?r=1570273145734" alt="smileyface"/> },
   { id: uuid(), content: <img className="photo" src="https://static.acer.com/up/Resource/Acer/Predator/Thronos/ThronosImage/20181227/Immersion_large.jpg" alt="smileyface"/> },
+  { id: uuid(), content: <img className="photo" src="https://static.hub.91mobiles.com/wp-content/uploads/2017/08/JioPhone-leak-FB-new.jpg" alt="smileyface"/> },
+  { id: uuid(), content: <img className="photo" src="https://st1.bgr.in/wp-content/uploads/2015/07/samsung-galaxy-s5-price-drop1.jpg" alt="smileyface"/> },
+  { id: uuid(), content: <img className="photo" src="https://i.ytimg.com/vi/HjDU5gd8pvc/maxresdefault.jpg" alt="smileyface"/> },
+  { id: uuid(), content: <img className="photo" src={img1} alt="smileyface"/> },
+  { id: uuid(), content: <img className="photo" src={img2} alt="smileyface"/> },
+  { id: uuid(), content: <img className="photo" src={img3} alt="smileyface"/> },
 ];
 
 const columnsFromBackend = {
